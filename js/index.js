@@ -20,8 +20,12 @@
 
 // Problem 207
 
-// let a = " -5 + 3 -9 + 8";
-// console.log(eval(a));
+// let a = "- 5 + 3 - 9 + 8";
+
+// function num(n) {
+//   return Function("return" + n)()
+// }
+// console.log(num(a));
 
 // Problem 208
 
@@ -47,7 +51,7 @@
 //     return null
 //   }
 // }
-// console.log(parseint("Bu manfiy son - 44 -")); 
+// console.log(parseint("Bu manfiy son - 22 -")); 
 
 // Problem 215
 
@@ -70,15 +74,18 @@
 
 // Probem 216
 
-// let massArray = [1, -10, 2, 4, 1, 8];
-// let count = massArray[0];
-// for(let i = 0; i < massArray.length; i++){
-//   if(massArray[i] < count){
-//     count = massArray[i]
+// let massArray = [1, -10, -332, 4, 1, 8];
+// function sortMass(massArray){
+//   let count = massArray[0];
+//   for(let i = 0; i < massArray.length; i++){
+//     if(massArray[i] < count){
+//       count = massArray[i]
+//     }
 //   }
+//   return count;
 // }
 
-// console.log(count);
+// console.log(sortMass(massArray));
 
 // Probem 217
 
