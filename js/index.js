@@ -51,7 +51,7 @@
 //     return null
 //   }
 // }
-// console.log(parseint("Bu manfiy son - 22 -")); 
+// console.log(parseint("Belgilar soni: 19ta")); 
 
 // Problem 215
 
@@ -101,20 +101,21 @@
 
 // Probem 218
 
-// let elArr = [1, [2, [3, 4], 5], 6];
-// let elNewArr = [];
+// let n = [1, [2, [3, 4], 5], 6];
 
-// for(let i = 0; i < elArr.length; i++){
-//   if(Number.isInteger(elArr[i])){
-//     elNewArr.push(elArr[i]);
-//   }if (Array.isArray(elArr[i])){
-//     elArr[i].forEach((item) => {
-//       elNewArr.push(item);
-//     })
-//   }
+// function flatArray(n){
+//   n = String(n);
+//   n = Array.from(n);
+//   n = n.filter((item) => {
+//     if(Number(item)){
+//       return item;
+//     }
+//   });
+//   n = n.map((item) => Number(item));
+//   return n;
 // }
 
-// console.log(elNewArr);
+// console.log(flatArray(n));
 
 
 // Probem 219
